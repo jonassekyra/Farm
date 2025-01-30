@@ -59,7 +59,7 @@ public abstract class Flower {
 
     public void sanceNaRust(){
         if(isWatered()){
-            chanceOfGrowth = chanceOfGrowth + 40;
+            chanceOfGrowth = chanceOfGrowth + 35;
         }
     }
 }
