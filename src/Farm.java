@@ -1,6 +1,9 @@
 import java.util.ArrayList;
 public class Farm {
 
+    public Farm() {
+        kytky = new ArrayList<>();
+    }
 
     private double volnemistoVha = 100;
     private ArrayList<Flower> kytky;
