@@ -20,4 +20,12 @@ public class Stodola {
         System.out.println("Zvire ma radost a je stastne, ze stesti uvolnilo koncnik a pokadilo se.");
     }
 
+    public void prodatZvire(Animal animal) {
+        if (velkaZvirata.contains(animal)) {
+            velkaZvirata.remove(animal);
+        }else {
+            malaZvirata.remove(animal);
+        }
+    }
+
 }
