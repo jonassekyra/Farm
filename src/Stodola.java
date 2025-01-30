@@ -15,4 +15,9 @@ public class Stodola {
             velkaZvirata.add(animal);
         }
     }
+
+    public void pohladitZvire(Animal animal) {
+        System.out.println("Zvire ma radost a je stastne, ze stesti uvolnilo koncnik a pokadilo se.");
+    }
+
 }
