@@ -2,11 +2,15 @@ import java.util.ArrayList;
 public class Farm {
 
 
-    private int volnemistoVha = 100;
+    private double volnemistoVha = 100;
     private ArrayList<Flower> kytky;
 
     public void pridaniRostlin(Flower f){
-        kytky.add(f);
+        if (f.getNeededArea()<volnemistoVha){
+            kytky.add(f);
+            volnemistoVha -= f.getNeededArea();
+        }
+
     }
 
     public void zavlazeniRostlin(Flower f){
