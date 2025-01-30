@@ -9,4 +9,10 @@ public class Stodola {
             malaZvirata.add(animal);
         }
     }
+
+    public void koupitVelkeZvire(Animal animal) {
+        if (velkaZvirata.size() <= 10) {
+            velkaZvirata.add(animal);
+        }
+    }
 }
