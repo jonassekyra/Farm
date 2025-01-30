@@ -1,2 +1,2 @@
-public class Mak extends Flower{
+public class Mak extends Flower {
 }
